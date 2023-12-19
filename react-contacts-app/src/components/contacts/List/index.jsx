@@ -50,7 +50,9 @@ const ContactList = ({ contacts, setContacts }) => {
                         <button onClick={() => deleteContact(contact.id)}>Delete</button>
                     </li>
                 ))}
-            </ul></>
+            </ul>
+            <p className="total-contacts">Total Contacts: {filteredContacts.length}</p>
+            </>
     );
 };
 

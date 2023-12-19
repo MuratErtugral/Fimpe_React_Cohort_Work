@@ -73,6 +73,12 @@
   border-radius: 4px;
 }
 
+.total-contacts {
+  font-size: large;
+  color: #4caf50;
+
+}
+
 .error {
   color: red;
   font-size: 12px;
